@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-      <app-new-quote @quateAdded="newQuote"></app-new-quote>
+      <app-new-quote @quoteAdded="newQuote"></app-new-quote>
       <app-quote-grid :quotes="quotes"></app-quote-grid>
     </div>
 </template>
